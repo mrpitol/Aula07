@@ -31,4 +31,11 @@ public class Funcoes {
         resultado = a * b;
         exibirResultado(resultado, "multiplicação");
     }
+    public static void exibirMensagem() {
+    	System.out.println("Hoje é um belo dia!");
+    	}
+
+    	public static void exibirSaudacao(String nome) {
+    	System.out.println("Bom dia, " + nome);
+    	}
 }
